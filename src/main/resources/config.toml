@@ -1,0 +1,8 @@
+# Please read the installation instructions: https://github.com/Simonsator/Party-API-For-Spigot/wiki/Installation
+# Either set it to redis or mysql. Please read the installation instructions: https://github.com/Simonsator/Party-API-For-Spigot/wiki/Installation
+PartyDataTransferMethod = "None"
+
+[redis]
+Host = "localhost"
+Password = ""
+Port = 6379

@@ -1,8 +1,8 @@
 {
-  "entrypoint": "me.heroostech.exampleextension.ExampleExtension",
-  "name": "example",
-  "version": "v1.0.0",
+  "entrypoint": "de.simonsator.partyandfriends.minestom.PartyAPIForMinestomPlugin",
+  "name": "partiesapiforpartyandfriends",
+  "version": "1.0.4-RELEASE",
   "dependencies": [
-    "minestomfloodgate"
+    "friendsapiforpartyandfriends"
   ]
 }
