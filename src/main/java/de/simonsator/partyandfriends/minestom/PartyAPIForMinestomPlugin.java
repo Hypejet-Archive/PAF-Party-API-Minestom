@@ -1,15 +1,11 @@
 package de.simonsator.partyandfriends.minestom;
 
 import com.moandjiezana.toml.Toml;
-import de.simonsator.partyandfriends.minestom.api.pafplayers.PAFPlayerManager;
-import de.simonsator.partyandfriends.minestom.api.party.PartyManager;
 import de.simonsator.partyandfriends.minestom.error.ErrorReporter;
 import de.simonsator.partyandfriends.minestom.main.Main;
 import de.simonsator.partyandfriends.minestom.party.mysql.MySQLPartyManager;
 import de.simonsator.partyandfriends.minestom.party.redis.RedisPartyManager;
 import me.heroostech.citystom.Extension;
-import net.minestom.server.event.player.PlayerChatEvent;
-import net.minestom.server.event.player.PlayerSpawnEvent;
 
 import java.io.*;
 import java.nio.file.Path;
@@ -47,6 +43,7 @@ public class PartyAPIForMinestomPlugin extends Extension {
 				f.createNewFile();
 				OutputStream stream = new FileOutputStream(f);
 				stream.write(bytes);
+				configResource.close();
 				stream.close();
 				file = f;
 			} catch (IOException e) {
