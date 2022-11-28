@@ -1,8 +1,8 @@
 {
   "entrypoint": "de.simonsator.partyandfriends.minestom.PartyAPIForMinestomPlugin",
-  "name": "partiesapiforpartyandfriends",
+  "name": "PartiesAPIForPAF",
   "version": "1.0.4-RELEASE",
   "dependencies": [
-    "friendsapiforpartyandfriends"
+    "FriendsAPIForPAF"
   ]
 }
