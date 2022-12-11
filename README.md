@@ -1,4 +1,4 @@
-# <h3 align="center">📀 ExampleExtension</h3>
+# <h3 align="center">🚗 PAF Party API Minestom</h3>
   <p align="center">
     <a href="https://github.com/CityWideMC/CityStom-ExampleExtension/issues">Report Bug</a>
     •
@@ -6,4 +6,4 @@
   </p>
 
 # About the project
-CityStom-ExampleExtension is an example extension that uses CityStom library.
+PAF Party API Minestom allows use Party and Friends Party API on minestom.
