@@ -9,7 +9,6 @@ version = "1.0.4-RELEASE"
 
 repositories {
     mavenCentral()
-    mavenLocal()
     maven("https://jitpack.io")
 }
 
