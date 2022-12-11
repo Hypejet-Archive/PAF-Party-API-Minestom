@@ -24,9 +24,7 @@ public class PartyAPIForMinestomPlugin extends Extension {
 	}
 
 	@Override
-	public void terminate() {
-
-	}
+	public void terminate() {}
 
 	private Toml getConfig() {
 		Toml toml = new Toml();
