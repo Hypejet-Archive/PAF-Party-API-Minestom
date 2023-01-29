@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     compileOnly(libs.minestom)
-    implementation(libs.citystom)
+    implementation(libs.hypestom)
     implementation(libs.jedis)
     compileOnly(libs.lombok)
     compileOnly(libs.pafmysql)
